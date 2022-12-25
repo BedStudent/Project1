@@ -10819,3 +10819,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#MobileNav {
+  display: flex;
+  flex-direction: row;
+}
+
+#NavColor {
+  background-color: rgb(240, 209, 159);
+  margin-left: 5px;
+  margin-right: 5px;
+}
