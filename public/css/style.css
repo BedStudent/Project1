@@ -10829,3 +10829,30 @@ textarea.form-control-lg {
   margin-left: 5px;
   margin-right: 5px;
 }
+
+#MainBox {
+  height: 300px;
+}
+
+#leftSide {
+  display: flex;
+  background-image: url(/template_templ/src/scss/components/images/leftPic.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#rightSide {
+  display: flex;
+  background-image: url(/template_templ/src/scss/components/images/rightPic.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.MygtukasA {
+  background-color: rgb(240, 209, 159);
+}
+
+.MygtukasA:hover {
+  color: rgb(135, 86, 7);
+  text-decoration: underline;
+}
