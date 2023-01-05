@@ -1,0 +1,12 @@
+#UzEkrano{
+    background: linear-gradient(270deg, #fd0fff, #12c5e2, #f70a7b);
+    background-size: 600% 600%;
+
+    animation: _animation 30s ease infinite;
+}
+
+@keyframes _animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

@@ -1,0 +1,15 @@
+#messageHere{
+    background-image: url(/template_templ/src/scss/components/images/message.png);
+}
+#Reminder{
+    background: linear-gradient(270deg, #fd0fff, #12a0e2, #f70a7b);
+    background-size: 600% 600%;
+
+    animation: background_animation2 30s ease infinite;
+}
+
+@keyframes background_animation2 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

@@ -1,6 +1,10 @@
 @import '~bootstrap';
 @import 'var';
 @import 'mixins';
-@import 'components/MobileNav';
-@import 'components/NavColor';
-@import 'components/BGimages';
+@import 'components/MainPage/MobileNav';
+@import 'components/MainPage/NavColor';
+@import 'components/MainPage/BGimages';
+@import 'components/MainPage/UZekrano';
+@import 'components/MainPage/messageHere';
+@import 'components/MainPage/itemShowcase';
+@import 'components/MainPage/CreateYourOwn';

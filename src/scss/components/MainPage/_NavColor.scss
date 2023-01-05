@@ -1,0 +1,12 @@
+#NavColor{
+    background: linear-gradient(270deg, #fd0fff, #12a0e2, #f70a7b);
+    background-size: 600% 600%;
+
+    animation: animation2 30s ease infinite;
+}
+
+@keyframes animation2 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

@@ -1,0 +1,41 @@
+#MainBox{
+    height: 300px;
+}
+#leftSide{
+    display: flex;
+    background-image: url(/template_templ/src/scss/components/images/leftPic.png);
+   background-size: cover;
+   background-position: center;
+}
+#rightSide{
+    display: flex;
+    background-image: url(/template_templ/src/scss/components/images/rightPic.png);
+    background-size: cover;
+    background-position: center;
+}
+.MygtukasA{
+    background: linear-gradient(270deg, #fd0fff, #12a0e2, #f70a7b);
+    background-size: 600% 600%;
+
+    animation: animation2 30s ease infinite;
+}
+
+@keyframes animation2 {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.MygtukasA:hover{
+    background: linear-gradient(270deg, #fd0fff, #12c5e2, #f70a7b);
+    background-size: 600% 600%;
+    text-decoration: underline;
+
+    animation: _animation 30s ease infinite;
+}
+
+@keyframes _animation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
